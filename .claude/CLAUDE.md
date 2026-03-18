@@ -2,7 +2,7 @@
 
 ## Contact
 - **Name:** Mr. A.J. (Bram) van Ommeren
-- **Email:** bram@advocatenkantoordebaarsjes.com
+- **Email:** ajvanommeren@baarsjes-advocaten.nl
 - **Phone:** 020 – 618 10 46
 
 ## Brand
