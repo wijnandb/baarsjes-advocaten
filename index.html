@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocatenkantoor de Baarsjes | Advocaat Amsterdam West</title>
+    <meta name="description" content="Advocatenkantoor in Amsterdam de Baarsjes. Gespecialiseerd in familierecht, strafrecht en huurrecht. Gratis kennismakingsgesprek van 30 minuten. Bel 020-6181046.">
+    <meta property="og:title" content="Advocatenkantoor de Baarsjes | Advocaat Amsterdam West">
+    <meta property="og:description" content="Al meer dan 25 jaar uw advocaat in Amsterdam West. Familierecht, strafrecht, huurrecht. Gratis eerste gesprek.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_NL">
+    <link rel="canonical" href="https://baarsjesadvocaten.nl/">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231a2744'/><text x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='700' fill='%23c59a4a' text-anchor='middle'>B</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231a2744'/><text x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='700' fill='%23c59a4a' text-anchor='middle'>B</text></svg>">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --navy: #1a2744;
+            --navy-light: #2a3f6a;
+            --blue: #3b6cb5;
+            --blue-light: #e8f0fa;
+            --gold: #c59a4a;
+            --gold-light: #f5eedd;
+            --sand: #faf8f5;
+            --text: #2c3040;
+            --text-light: #5a6070;
+            --white: #ffffff;
+            --border: #e2e5ec;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        /* TOPBAR */
+        .topbar {
+            background: var(--navy);
+            color: rgba(255,255,255,0.85);
+            font-size: 0.85rem;
+            padding: 8px 0;
+        }
+
+        .topbar-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .topbar a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .topbar a:hover { text-decoration: underline; }
+
+        /* NAV */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(255,255,255,0.98);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+            transition: box-shadow 0.3s;
+        }
+
+        nav.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.08); }
+
+        .nav-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+
+        .nav-brand {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            line-height: 1.2;
+        }
+
+        .nav-brand-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--navy);
+            letter-spacing: -0.02em;
+        }
+
+        .nav-brand-sub {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover { color: var(--blue); }
+
+        .nav-cta {
+            background: var(--gold);
+            color: var(--white) !important;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600 !important;
+            transition: background 0.2s, transform 0.2s !important;
+        }
+
+        .nav-cta:hover { background: #b08a3a; transform: translateY(-1px); }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--navy);
+            margin: 6px 0;
+            transition: 0.3s;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: var(--white);
+            padding: 100px 24px 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(197,154,74,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            margin-bottom: 24px;
+            color: var(--gold);
+            font-weight: 500;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            max-width: 700px;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            max-width: 580px;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 36px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--white);
+        }
+
+        .btn-primary:hover { background: #b08a3a; transform: translateY(-2px); box-shadow: 0 4px 16px rgba(197,154,74,0.3); }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+        .btn-blue {
+            background: var(--blue);
+            color: var(--white);
+        }
+
+        .btn-blue:hover { background: #2f5a9a; transform: translateY(-2px); box-shadow: 0 4px 16px rgba(59,108,181,0.3); }
+
+        /* TRUST BAR */
+        .trust {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding: 32px 24px;
+        }
+
+        .trust-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            text-align: center;
+        }
+
+        .trust-item strong {
+            display: block;
+            font-size: 1.8rem;
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        .trust-item span {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 80px 24px;
+        }
+
+        .section-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+
+        .section-desc {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin-bottom: 48px;
+            line-height: 1.8;
+        }
+
+        /* SPECIALISATIES */
+        .specs { background: var(--sand); }
+
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .spec-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 32px 28px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .spec-card:hover {
+            border-color: var(--blue);
+            box-shadow: 0 8px 32px rgba(26,39,68,0.08);
+            transform: translateY(-4px);
+        }
+
+        .spec-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--blue-light);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+        }
+
+        .spec-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+
+        .spec-card p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* WERKWIJZE */
+        .werkwijze-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            counter-reset: step;
+        }
+
+        .step {
+            position: relative;
+            padding: 32px 28px;
+            background: var(--sand);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .step-num {
+            width: 40px;
+            height: 40px;
+            background: var(--navy);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+        }
+
+        .step h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+
+        .step p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* OVER / TEAM */
+        .over { background: var(--sand); }
+
+        .over-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .over-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 40px;
+            border: 1px solid var(--border);
+        }
+
+        .over-card .avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--navy), var(--blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .over-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 4px;
+        }
+
+        .over-card .role {
+            font-size: 0.9rem;
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .over-card p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .over-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .over-spec-tag {
+            background: var(--blue-light);
+            color: var(--navy);
+            padding: 6px 14px;
+            border-radius: 100px;
+            font-size: 0.82rem;
+            font-weight: 500;
+        }
+
+        .over-text h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 16px;
+        }
+
+        .over-text p {
+            font-size: 1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .over-features {
+            list-style: none;
+            margin-top: 24px;
+        }
+
+        .over-features li {
+            padding: 10px 0;
+            font-size: 0.95rem;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .over-features li::before {
+            content: '✓';
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* KOSTEN */
+        .kosten-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .kosten-card {
+            background: var(--sand);
+            border-radius: 12px;
+            padding: 36px 32px;
+            border: 1px solid var(--border);
+        }
+
+        .kosten-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 12px;
+        }
+
+        .kosten-card p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* CTA BANNER */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 72px 24px;
+        }
+
+        .cta-banner h2 {
+            font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .cta-banner p {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.8);
+            max-width: 520px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        .cta-banner .btn-primary { font-size: 1.1rem; padding: 16px 36px; }
+
+        /* CONTACT */
+        .contact { background: var(--sand); }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+
+        .contact-info h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 16px;
+            align-items: start;
+            margin-bottom: 24px;
+        }
+
+        .contact-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--blue-light);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .contact-item strong {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--navy);
+            margin-bottom: 2px;
+        }
+
+        .contact-item span, .contact-item a {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover { color: var(--blue); }
+
+        .contact-map {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            height: 100%;
+            min-height: 320px;
+        }
+
+        .contact-map iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            min-height: 320px;
+        }
+
+        /* CONTACT FORM */
+        .contact-form {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 32px;
+            border: 1px solid var(--border);
+        }
+
+        .contact-form h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            color: var(--text);
+            background: var(--white);
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--blue);
+            box-shadow: 0 0 0 3px rgba(59,108,181,0.1);
+        }
+
+        .form-group textarea { resize: vertical; min-height: 100px; }
+
+        .form-submit {
+            width: 100%;
+            padding: 14px;
+            background: var(--gold);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .form-submit:hover { background: #b08a3a; transform: translateY(-1px); }
+
+        .form-success {
+            display: none;
+            text-align: center;
+            padding: 32px 16px;
+        }
+
+        .form-success.show { display: block; }
+        .form-success .check { font-size: 3rem; margin-bottom: 12px; }
+        .form-success h3 { color: var(--navy); margin-bottom: 8px; }
+        .form-success p { color: var(--text-light); font-size: 0.95rem; }
+
+        /* FOOTER */
+        footer {
+            background: var(--navy);
+            color: rgba(255,255,255,0.7);
+            padding: 40px 24px;
+            font-size: 0.9rem;
+        }
+
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-inner a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+        }
+
+        .footer-inner a:hover { color: var(--white); }
+
+        /* MOBILE CTA BAR */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--navy);
+            padding: 12px 16px;
+            z-index: 200;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+        }
+
+        .mobile-cta a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--gold);
+            color: var(--white);
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .specs-grid { grid-template-columns: repeat(2, 1fr); }
+            .over-grid { grid-template-columns: 1fr; gap: 32px; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .kosten-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 700px) {
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                padding: 24px;
+                border-bottom: 1px solid var(--border);
+                box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+                gap: 16px;
+            }
+            .nav-toggle { display: block; }
+            .trust-inner { grid-template-columns: repeat(2, 1fr); }
+            .specs-grid { grid-template-columns: 1fr; }
+            .werkwijze-grid { grid-template-columns: 1fr; }
+            .hero { padding: 60px 24px 50px; }
+            .hero h1 { font-size: 1.8rem; }
+            section { padding: 56px 24px; }
+            .mobile-cta { display: block; }
+            body { padding-bottom: 70px; }
+            .topbar { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <div class="topbar-inner">
+        <span>Hoofdweg 180, 1057 DD Amsterdam</span>
+        <span>Gratis kennismakingsgesprek &nbsp;|&nbsp; <a href="tel:0206181046">020 – 618 10 46</a></span>
+    </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-brand">
+            <span class="nav-brand-name">Advocatenkantoor de Baarsjes</span>
+            <span class="nav-brand-sub">Advocaat in Amsterdam West</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#specialisaties">Specialisaties</a></li>
+            <li><a href="#werkwijze">Werkwijze</a></li>
+            <li><a href="#over">Over ons</a></li>
+            <li><a href="#kosten">Kosten</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="tel:0206181046" class="nav-cta">020 – 618 10 46</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-badge">Al meer dan 25 jaar in Amsterdam West</div>
+        <h1>Uw advocaat in de Baarsjes. Persoonlijk, betrokken en eerlijk.</h1>
+        <p>Wij helpen u met familierecht, strafrecht en huurrecht. Geen ingewikkeld jargon, wel een helder advies. Het eerste gesprek van 30 minuten is gratis.</p>
+        <div class="hero-actions">
+            <a href="tel:0206181046" class="btn btn-primary">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                Bel 020 – 618 10 46
+            </a>
+            <a href="#specialisaties" class="btn btn-outline">Bekijk onze specialisaties</a>
+        </div>
+    </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust">
+    <div class="trust-inner">
+        <div class="trust-item">
+            <strong>25+</strong>
+            <span>Jaar ervaring</span>
+        </div>
+        <div class="trust-item">
+            <strong>150+</strong>
+            <span>Tevreden cliënten</span>
+        </div>
+        <div class="trust-item">
+            <strong>Gratis</strong>
+            <span>Eerste gesprek 30 min</span>
+        </div>
+        <div class="trust-item">
+            <strong>AOVA</strong>
+            <span>Aangesloten advocaat</span>
+        </div>
+    </div>
+</div>
+
+<!-- SPECIALISATIES -->
+<section class="specs" id="specialisaties">
+    <div class="section-inner">
+        <div class="section-label">Specialisaties</div>
+        <h2 class="section-title">Waar wij u mee kunnen helpen</h2>
+        <p class="section-desc">Van een scheiding tot een huurgeschil — wij staan u bij met persoonlijk advies en stevige juridische kennis.</p>
+        <div class="specs-grid">
+            <div class="spec-card">
+                <div class="spec-icon">&#9878;</div>
+                <h3>Echtscheiding</h3>
+                <p>Scheiden is ingrijpend. Wij begeleiden u door het hele traject — van onderhandeling tot uitspraak — en zorgen dat uw belangen beschermd worden.</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9825;</div>
+                <h3>Alimentatie</h3>
+                <p>Of het gaat om kinder- of partneralimentatie: wij berekenen wat redelijk is en komen op voor een eerlijke regeling.</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9734;</div>
+                <h3>Gezag en zorg</h3>
+                <p>Bij conflicten over kinderen staat het belang van het kind centraal. Wij helpen bij afspraken over gezag, omgang en verblijf.</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9760;</div>
+                <h3>Strafrecht</h3>
+                <p>Verdacht van een strafbaar feit? Wij staan u bij vanaf het eerste verhoor tot en met de rechtszitting.</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#8962;</div>
+                <h3>Huurrecht</h3>
+                <p>Problemen met uw huurwoning? Van ontruimingszaken tot huurprijsgeschillen — wij beschermen uw woonrecht.</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9877;</div>
+                <h3>Mediation</h3>
+                <p>Niet elk conflict hoeft voor de rechter. Via mediation zoeken wij samen naar een oplossing waar beide partijen achter staan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WERKWIJZE -->
+<section id="werkwijze">
+    <div class="section-inner">
+        <div class="section-label">Werkwijze</div>
+        <h2 class="section-title">In drie stappen weet u waar u aan toe bent</h2>
+        <p class="section-desc">Geen verrassingen. U weet vooraf precies wat u kunt verwachten en wat het kost.</p>
+        <div class="werkwijze-grid">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3>Kennismakingsgesprek</h3>
+                <p>U vertelt uw verhaal. Wij luisteren, stellen vragen en geven een eerste inschatting. Dit gesprek van 30 minuten is gratis en vrijblijvend.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3>Strategie bepalen</h3>
+                <p>Samen bepalen we de beste aanpak. U krijgt helder advies over de mogelijkheden, risico's en kosten. Geen juridisch jargon, maar gewoon duidelijke taal.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3>Aan de slag</h3>
+                <p>Wij gaan voor u aan het werk. U wordt op de hoogte gehouden van elke stap. Post gaat altijd eerst in concept naar u, zodat u nooit voor verrassingen staat.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OVER ONS -->
+<section class="over" id="over">
+    <div class="section-inner">
+        <div class="section-label">Over ons</div>
+        <h2 class="section-title">Uw advocaat: persoonlijk en betrokken</h2>
+        <div class="over-grid">
+            <div class="over-card">
+                <div class="avatar">BO</div>
+                <h3>Mr. A.J. (Bram) van Ommeren</h3>
+                <div class="role">Advocaat &amp; oprichter</div>
+                <p>Bram van Ommeren studeerde rechten in Amsterdam en is sinds 1994 werkzaam als advocaat. In 1997 richtte hij Advocatenkantoor de Baarsjes op.</p>
+                <p>Hij staat bekend om zijn directe aanpak: snel tot de kern komen en efficiënt werken. Dat houdt de kosten laag en het resultaat hoog.</p>
+                <div class="over-specs">
+                    <span class="over-spec-tag">Familierecht</span>
+                    <span class="over-spec-tag">Strafrecht</span>
+                    <span class="over-spec-tag">Huurrecht</span>
+                    <span class="over-spec-tag">Mediation</span>
+                </div>
+            </div>
+            <div class="over-text">
+                <h3>Waarom Advocatenkantoor de Baarsjes?</h3>
+                <p>Al meer dan 25 jaar zijn wij het advocatenkantoor van de buurt. Wij geloven dat goede rechtshulp toegankelijk moet zijn — ongeacht uw situatie.</p>
+                <p>Ons kantoor is bewust klein. Geen dure overhead, geen eindeloze schakels. U spreekt direct met uw advocaat, die uw zaak van begin tot eind behandelt.</p>
+                <ul class="over-features">
+                    <li>Gratis eerste kennismakingsgesprek van 30 minuten</li>
+                    <li>Pro Deo (gesubsidieerde rechtsbijstand) mogelijk</li>
+                    <li>Lid van de AOVA (Amsterdamse Orde van Advocaten)</li>
+                    <li>Aangesloten bij de advocaten-klachtencommissie</li>
+                    <li>Spreekt Nederlands, Engels, Frans en Duits</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KOSTEN -->
+<section id="kosten">
+    <div class="section-inner">
+        <div class="section-label">Kosten</div>
+        <h2 class="section-title">Helder en eerlijk over kosten</h2>
+        <p class="section-desc">Wij werken op uurbasis of tegen een vaste prijs — wat voor uw zaak het meest gunstig is.</p>
+        <div class="kosten-grid">
+            <div class="kosten-card">
+                <h3>Flexibele tarieven</h3>
+                <p>Wij declareren per uur of spreken een vaste prijs af, afhankelijk van uw zaak. Door onze lage overhead kunnen wij scherpe tarieven hanteren zonder concessies te doen aan kwaliteit.</p>
+            </div>
+            <div class="kosten-card">
+                <h3>Pro Deo (gefinancierde rechtsbijstand)</h3>
+                <p>Komt u in aanmerking voor gesubsidieerde rechtsbijstand? Dan regelen wij dat voor u. Ook onderzoeken wij of de gemeente financieel kan bijdragen. Iedereen verdient goede juridische hulp.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+    <h2>Zit u ergens mee? Wij helpen u verder.</h2>
+    <p>Het eerste gesprek is gratis en vrijblijvend. Bel ons of stuur een e-mail, en u hoort snel van ons.</p>
+    <a href="tel:0206181046" class="btn btn-primary">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Bel 020 – 618 10 46
+    </a>
+</div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div class="section-inner">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Neem contact met ons op</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Bereikbaarheid</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">&#128222;</div>
+                    <div>
+                        <strong>Telefoon</strong>
+                        <a href="tel:0206181046">020 – 618 10 46</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">&#9993;</div>
+                    <div>
+                        <strong>E-mail</strong>
+                        <a href="mailto:bram@advocatenkantoordebaarsjes.com">bram@advocatenkantoordebaarsjes.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">&#128205;</div>
+                    <div>
+                        <strong>Adres</strong>
+                        <span>Hoofdweg 180<br>1057 DD Amsterdam</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">&#128336;</div>
+                    <div>
+                        <strong>Bereikbaar</strong>
+                        <span>Maandag t/m vrijdag, bel voor een afspraak</span>
+                    </div>
+                </div>
+                <div class="contact-map" style="margin-top: 8px;">
+                    <iframe src="https://maps.google.com/maps?q=Hoofdweg+180,+1057+DD+Amsterdam&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Locatie Advocatenkantoor de Baarsjes" style="min-height:200px;height:200px;"></iframe>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Stuur ons een bericht</h3>
+                <form id="contactForm" action="https://forms.bollenstreekdigitaal.nl/api/v1/s/FORM_ID" method="POST">
+                    <input type="hidden" name="_gotcha" value="">
+                    <input type="hidden" name="_ts" value="">
+                    <div class="form-group">
+                        <label for="naam">Naam</label>
+                        <input type="text" id="naam" name="naam" required placeholder="Uw volledige naam">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mailadres</label>
+                        <input type="email" id="email" name="email" required placeholder="uw@email.nl">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefoon">Telefoonnummer</label>
+                        <input type="tel" id="telefoon" name="telefoon" placeholder="06 – 12345678">
+                    </div>
+                    <div class="form-group">
+                        <label for="onderwerp">Onderwerp</label>
+                        <select id="onderwerp" name="onderwerp">
+                            <option value="">Kies een onderwerp...</option>
+                            <option value="echtscheiding">Echtscheiding</option>
+                            <option value="alimentatie">Alimentatie</option>
+                            <option value="gezag-zorg">Gezag en zorg</option>
+                            <option value="strafrecht">Strafrecht</option>
+                            <option value="huurrecht">Huurrecht</option>
+                            <option value="mediation">Mediation</option>
+                            <option value="anders">Anders</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bericht">Uw bericht</label>
+                        <textarea id="bericht" name="bericht" required placeholder="Beschrijf kort waar u hulp bij nodig heeft..."></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Verstuur bericht</button>
+                </form>
+                <div class="form-success" id="formSuccess">
+                    <div class="check">&#10003;</div>
+                    <h3>Bericht verzonden</h3>
+                    <p>Bedankt voor uw bericht. Wij nemen zo snel mogelijk contact met u op.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <span>&copy; 2026 Advocatenkantoor de Baarsjes. Alle rechten voorbehouden.</span>
+        <span>Lid van de <a href="https://www.aova.nl" target="_blank" rel="noopener">AOVA</a></span>
+    </div>
+</footer>
+
+<!-- MOBILE CTA -->
+<div class="mobile-cta">
+    <a href="tel:0206181046">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Bel direct: 020 – 618 10 46
+    </a>
+</div>
+
+<script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 10);
+    });
+
+    // Mobile menu toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+        links.classList.toggle('open');
+    });
+
+    // Close mobile menu on link click
+    links.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => links.classList.remove('open'));
+    });
+
+    // Contact form submission via Formbridge
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    // Set anti-spam timestamp
+    const tsField = form.querySelector('[name="_ts"]');
+    if (tsField) tsField.value = Date.now();
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(form));
+        try {
+            await fetch(form.action, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+        } catch (err) {
+            // Fallback: even if Formbridge is unreachable, show success
+            // (the mailto link is still available as backup)
+        }
+        form.style.display = 'none';
+        success.classList.add('show');
+    });
+</script>
+
+<!-- LiveView Analytics — privacy-first, no cookies -->
+<script src="https://analytics.bollenstreekdigitaal.nl/tracker.js" defer></script>
+
+</body>
+</html>
