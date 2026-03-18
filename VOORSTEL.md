@@ -80,7 +80,7 @@ Die mensen zoeken soms in hun eigen taal. "Avukat Amsterdam" in het Turks. Het A
 
 ### 2. De concurrentie doet het ook niet geweldig
 
-Bos en Lommer Advocaten heeft een website die slecht laadt. Advocatenkantoor Schmidt heeft een overzichtelijke site en biedt een wekelijks gratis spreekuur. Geen van beiden doet strafrecht of internationaal privaatrecht. Dat is jullie voorsprong — maar alleen als mensen het kunnen vinden.
+Bos en Lommer Advocaten heeft een functionele site, maar is sterker in arbeidsrecht dan in jullie rechtsgebieden. Advocatenkantoor Schmidt heeft een overzichtelijke site en biedt een wekelijks gratis spreekuur. Geen van beiden doet strafrecht of internationaal privaatrecht. Dat is jullie voorsprong — maar alleen als mensen het kunnen vinden.
 
 ### 3. De klachten zijn op te lossen
 
