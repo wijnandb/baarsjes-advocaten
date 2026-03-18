@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over ons | Advocatenkantoor de Baarsjes</title>
+    <meta name="description" content="Mr. A.J. (Bram) van Ommeren — advocaat in Amsterdam West sinds 1994. Gespecialiseerd in familierecht, strafrecht en huurrecht. AOVA-lid.">
+    <meta property="og:title" content="Over ons | Advocatenkantoor de Baarsjes">
+    <meta property="og:description" content="Mr. A.J. (Bram) van Ommeren — advocaat in Amsterdam West sinds 1994. Gespecialiseerd in familierecht, strafrecht en huurrecht. AOVA-lid.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_NL">
+    <link rel="canonical" href="https://baarsjesadvocaten.nl/over-ons/">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231a2744'/><text x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='700' fill='%23c59a4a' text-anchor='middle'>B</text></svg>">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --navy: #1a2744; --navy-light: #2a3f6a; --blue: #3b6cb5; --blue-light: #e8f0fa; --gold: #c59a4a; --gold-light: #f5eedd; --sand: #faf8f5; --text: #2c3040; --text-light: #5a6070; --white: #ffffff; --border: #e2e5ec; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; color: var(--text); line-height: 1.7; font-size: 17px; }
+        .topbar { background: var(--navy); color: rgba(255,255,255,0.85); font-size: 0.85rem; padding: 8px 0; }
+        .topbar-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+        .topbar a { color: var(--gold); text-decoration: none; font-weight: 600; }
+        .topbar a:hover { text-decoration: underline; }
+        nav { position: sticky; top: 0; background: rgba(255,255,255,0.98); backdrop-filter: blur(12px); z-index: 100; border-bottom: 1px solid var(--border); transition: box-shadow 0.3s; }
+        nav.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.08); }
+        .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; height: 72px; }
+        .nav-brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.2; }
+        .nav-brand-name { font-size: 1.25rem; font-weight: 700; color: var(--navy); letter-spacing: -0.02em; }
+        .nav-brand-sub { font-size: 0.75rem; color: var(--text-light); font-weight: 400; }
+        .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+        .nav-links a { text-decoration: none; color: var(--text); font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--blue); }
+        .nav-links a.active { color: var(--blue); }
+        .nav-cta { background: var(--gold); color: var(--white) !important; padding: 10px 20px; border-radius: 6px; font-weight: 600 !important; transition: background 0.2s, transform 0.2s !important; }
+        .nav-cta:hover { background: #b08a3a; transform: translateY(-1px); }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+        .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--navy); margin: 6px 0; transition: 0.3s; }
+        .page-hero { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%); color: var(--white); padding: 60px 24px 48px; }
+        .page-hero-inner { max-width: 1100px; margin: 0 auto; }
+        .page-hero h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: 12px; }
+        .page-hero p { font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 600px; line-height: 1.7; }
+        section { padding: 80px 24px; }
+        .section-inner { max-width: 1100px; margin: 0 auto; }
+        .section-label { font-size: 0.85rem; font-weight: 600; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+        .section-title { font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 700; color: var(--navy); margin-bottom: 16px; line-height: 1.3; }
+        .section-desc { font-size: 1.05rem; color: var(--text-light); max-width: 600px; margin-bottom: 48px; line-height: 1.8; }
+        .specs { background: var(--sand); }
+        .specs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .spec-card { background: var(--white); border-radius: 12px; padding: 32px 28px; border: 1px solid var(--border); transition: all 0.3s; }
+        .spec-card:hover { border-color: var(--blue); box-shadow: 0 8px 32px rgba(26,39,68,0.08); transform: translateY(-4px); }
+        .spec-icon { width: 48px; height: 48px; background: var(--blue-light); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px; }
+        .spec-card h3 { font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+        .spec-card p { font-size: 0.95rem; color: var(--text-light); line-height: 1.7; }
+        .spec-detail { padding: 80px 24px; }
+        .spec-detail:nth-child(even) { background: var(--sand); }
+        .spec-detail-inner { max-width: 800px; margin: 0 auto; }
+        .spec-detail h2 { font-size: 1.5rem; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
+        .spec-detail p { font-size: 1rem; color: var(--text-light); line-height: 1.8; margin-bottom: 16px; }
+        .spec-detail ul { list-style: none; margin: 16px 0 24px; }
+        .spec-detail ul li { padding: 8px 0; font-size: 0.95rem; color: var(--text); display: flex; align-items: center; gap: 12px; }
+        .spec-detail ul li::before { content: '✓'; color: var(--gold); font-weight: 700; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; border-radius: 8px; font-size: 1rem; font-weight: 600; text-decoration: none; transition: all 0.2s; border: none; cursor: pointer; }
+        .btn-primary { background: var(--gold); color: var(--white); }
+        .btn-primary:hover { background: #b08a3a; transform: translateY(-2px); box-shadow: 0 4px 16px rgba(197,154,74,0.3); }
+        .cta-banner { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%); color: var(--white); text-align: center; padding: 72px 24px; }
+        .cta-banner h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 700; margin-bottom: 16px; }
+        .cta-banner p { font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
+        .cta-banner .btn-primary { font-size: 1.1rem; padding: 16px 36px; }
+        footer { background: var(--navy); color: rgba(255,255,255,0.7); padding: 40px 24px; font-size: 0.9rem; }
+        .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+        .footer-inner a { color: rgba(255,255,255,0.7); text-decoration: none; }
+        .footer-inner a:hover { color: var(--white); }
+        .mobile-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--navy); padding: 12px 16px; z-index: 200; box-shadow: 0 -4px 20px rgba(0,0,0,0.15); }
+        .mobile-cta a { display: flex; align-items: center; justify-content: center; gap: 10px; background: var(--gold); color: var(--white); text-decoration: none; padding: 14px; border-radius: 8px; font-weight: 700; font-size: 1.05rem; }
+        @media (max-width: 900px) { .specs-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 700px) {
+            .nav-links { display: none; }
+            .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: var(--white); padding: 24px; border-bottom: 1px solid var(--border); box-shadow: 0 8px 32px rgba(0,0,0,0.08); gap: 16px; }
+            .nav-toggle { display: block; }
+            .specs-grid { grid-template-columns: 1fr; }
+            .page-hero { padding: 40px 24px 32px; }
+            section { padding: 56px 24px; }
+            .mobile-cta { display: block; }
+            body { padding-bottom: 70px; }
+            .topbar { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbar"><div class="topbar-inner"><span>Hoofdweg 180, 1057 DD Amsterdam</span><span>Gratis kennismakingsgesprek &nbsp;|&nbsp; <a href="tel:0206181046">020 – 618 10 46</a></span></div></div>
+
+<nav id="nav"><div class="nav-inner">
+    <a href="/" class="nav-brand"><span class="nav-brand-name">Advocatenkantoor de Baarsjes</span><span class="nav-brand-sub">Advocaat in Amsterdam West</span></a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="/specialisaties/">Specialisaties</a></li>
+        <li><a href="/werkwijze/">Werkwijze</a></li>
+        <li><a href="/over-ons/" class="active">Over ons</a></li>
+        <li><a href="/kosten/">Kosten</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="tel:0206181046" class="nav-cta">020 – 618 10 46</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</div></nav>
+
+<div class="page-hero"><div class="page-hero-inner">
+    <h1>Over ons</h1>
+    <p>Al meer dan 25 jaar het advocatenkantoor van de buurt in Amsterdam West.</p>
+</div></div>
+
+<div class="spec-detail">
+    <div class="spec-detail-inner">
+        <h2>Ons kantoor</h2>
+        <p>Advocatenkantoor de Baarsjes is opgericht in 1997 en sindsdien gevestigd aan de Hoofdweg in Amsterdam West. Het is bewust een klein kantoor — geen dure overhead, geen grote organisatie tussen u en uw advocaat in. De lijnen zijn direct.</p>
+        <p>De filosofie is eenvoudig: goede rechtshulp moet toegankelijk zijn, ongeacht uw situatie. Of u nu voor het eerst bij een advocaat binnenloopt of al jaren procedeert — u krijgt dezelfde aandacht en dezelfde kwaliteit.</p>
+    </div>
+</div>
+
+<div class="spec-detail">
+    <div class="spec-detail-inner">
+        <h2>Mr. A.J. (Bram) van Ommeren — Advocaat &amp; oprichter</h2>
+        <p>Bram van Ommeren studeerde rechten in Amsterdam en is werkzaam als advocaat sinds 1994. In 1997 richtte hij zijn eigen kantoor op in de Baarsjes. Hij staat bekend om zijn directe aanpak: snel tot de kern komen en efficiënt werken, zodat u niet betaalt voor onnodige uren.</p>
+        <p>Hij is ingeschreven in de volgende specialisaties: familierecht, strafrecht, huurrecht en de algemene praktijk. Voor vragen of een afspraak bereikt u hem rechtstreeks via <a href="mailto:ajvanommeren@baarsjes-advocaten.nl">ajvanommeren@baarsjes-advocaten.nl</a>.</p>
+        <ul>
+            <li>Advocaat sinds 1994</li>
+            <li>Registraties: familierecht, strafrecht, huurrecht, algemene praktijk</li>
+            <li>Spreekt: Nederlands, Engels, Frans en Duits</li>
+        </ul>
+    </div>
+</div>
+
+<div class="spec-detail">
+    <div class="spec-detail-inner">
+        <h2>Waarom Advocatenkantoor de Baarsjes?</h2>
+        <p>Er zijn veel advocatenkantoren in Amsterdam. Hier is waarom mensen voor ons kiezen.</p>
+        <ul>
+            <li>Gratis eerste kennismakingsgesprek van 30 minuten</li>
+            <li>Pro Deo (gesubsidieerde rechtsbijstand) mogelijk</li>
+            <li>Lid van de AOVA (Amsterdamse Orde van Advocaten)</li>
+            <li>Aangesloten bij de advocaten-klachtencommissie</li>
+            <li>Meertalig: Nederlands, Engels, Frans en Duits</li>
+        </ul>
+    </div>
+</div>
+
+<div class="cta-banner">
+    <h2>Heeft u juridisch advies nodig?</h2>
+    <p>Het eerste gesprek van 30 minuten is gratis en vrijblijvend.</p>
+    <a href="tel:0206181046" class="btn btn-primary">Bel 020 – 618 10 46</a>
+</div>
+
+<footer><div class="footer-inner">
+    <span>&copy; 2026 Advocatenkantoor de Baarsjes. Alle rechten voorbehouden.</span>
+    <span>Lid van de <a href="https://www.aova.nl" target="_blank" rel="noopener">AOVA</a></span>
+</div></footer>
+
+<div class="mobile-cta"><a href="tel:0206181046">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    Bel direct: 020 – 618 10 46
+</a></div>
+
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 10));
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => links.classList.remove('open')));
+</script>
+<script src="https://analytics.bollenstreekdigitaal.nl/tracker.js" defer></script>
+</body>
+</html>
