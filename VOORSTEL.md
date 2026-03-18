@@ -10,26 +10,61 @@ Jullie kantoor bestaat bijna dertig jaar. Dat is lang. Jullie kennen de wijk, de
 
 85 procent van alle juridische zoekopdrachten in Nederland bevat tegenwoordig een locatie. "Advocaat Amsterdam West." "Echtscheidingsadvocaat De Baarsjes." "Pro deo advocaat bij mij in de buurt." Wie niet in die zoekresultaten staat, bestaat niet — voor die zoeker.
 
-Jullie staan er nu niet goed in. Er zijn twee websites die elkaar tegenspreken. De ene claimt vijf specialisaties, de andere zes. De ene noemt 1000+ cliënten, de andere 150+. Voor iemand die googelt en vergelijkt, is dat verwarrend.
+Jullie staan er nu niet goed in. En daar zijn concrete redenen voor.
 
-Dat is jammer. Want jullie hebben een goed verhaal. Een 8,3 op Trustoo. Top 10 in Amsterdam. Gratis eerste gesprek. Pro deo. En een specialisatie die geen enkele concurrent in de buurt biedt: internationaal privaatrecht. Precies het rechtsgebied dat de migrantengemeenschap in De Baarsjes nodig heeft.
+---
+
+## Drie problemen met jullie online aanwezigheid
+
+### Probleem 1: baarsjes-advocaten.nl
+
+De huidige site doet het op het eerste gezicht redelijk. Maar er zitten gebreken in die een potentiële cliënt opvallen — en die Google opvalt.
+
+De lettertypen zijn een voorbeeld. De site gebruikt Amiri voor koppen en Poppins voor de lopende tekst. Amiri is een Arabisch-Latijns lettertype, oorspronkelijk ontworpen voor Arabische typografie. Voor een Nederlands advocatenkantoor geeft het een ongemakkelijke uitstraling — het oogt niet als een bewuste keuze, maar als een willekeurig template. Poppins als bodyfont is op zich functioneel, maar de combinatie voelt niet doordacht. Vergelijk het met een advocaat die in een goed pak verschijnt maar met verkeerde schoenen: het klopt net niet.
+
+Ernstiger: op de specialisatiepagina staat het woord "Einführungstreffen" — Duits voor kennismakingsgesprek. Dat is een vertaalfout die erin is geslopen, waarschijnlijk via een template of vertaaltool. Voor een cliënt die twijfelt of dit kantoor de juiste keuze is, is zoiets een reden om door te klikken naar de concurrent.
+
+De site laadt bovendien traag, is niet goed geoptimaliseerd voor telefoons, en heeft geen aparte pagina's per rechtsgebied — wat Google nodig heeft om jullie te tonen bij specifieke zoekopdrachten.
+
+### Probleem 2: advocatenkantoordebaarsjes.amsterdam
+
+Dit is ernstiger. Er staat een tweede website online onder jullie kantoornaam, op het .amsterdam-domein. Die site is gebouwd via Mijndomein en draait op een WordPress-template waarvan de demo-inhoud nooit is vervangen.
+
+Wat er nu op staat:
+
+- Een fictieve advocaat genaamd "Anna Visser" — die niet bestaat
+- Vier specialisaties die jullie niet aanbieden (ondernemingsrecht, arbeidsrecht)
+- De claim "1000+ cliënten" en "5000+" van een onduidelijke maatstaf
+- Stockfoto's van rechtbanken en wetboeken
+- Geen adres, geen telefoonnummer, geen echte informatie
+- De site noemt zichzelf ook "Advocantenkantoor De Rechtvaardigheid" — een tweede fictieve naam
+
+Het domein is in 2015 geregistreerd bij Metaregistrar via Mijndomein, op naam van "advocatenkantoor de baarsjes". Iemand heeft het ooit aangemaakt en er nooit iets mee gedaan. Het resultaat is een spooksite die jullie reputatie ondermijnt.
+
+Iemand die googelt op jullie kantoornaam vindt twee websites die elkaar tegenspreken. De ene zegt zes specialisaties, de andere vier. De ene heeft echte mensen, de andere een verzonnen advocaat. Dat wekt geen vertrouwen.
+
+### Probleem 3: geen strategie achter de vindbaarheid
+
+Jullie hebben een goede Trustoo-score (8,3 uit 10, top 10 Amsterdam) en een gratis eerste gesprek. Maar die sterke punten zijn online nauwelijks zichtbaar. Er zijn geen aparte pagina's per rechtsgebied, geen Google Business-profiel dat actief wordt beheerd, en geen manier om online een afspraak te maken of een bericht te sturen dat niet verloren gaat.
 
 ---
 
 ## Wat wij hebben gedaan
 
-Wij hebben een nieuwe website gebouwd voor jullie kantoor.
+Wij hebben een nieuwe website gebouwd voor jullie kantoor. Niet als verkooptruc — als demonstratie. De site staat al online:
 
-Niet als verkooptruc — als demonstratie. De site staat al online. Je kunt hem bekijken. Hij is snel, werkt op telefoon en computer, en is geschreven in de taal van jullie cliënten, niet in juridisch jargon.
+**https://wijnandb.github.io/baarsjes-advocaten/**
+
+Hij is snel, werkt op telefoon en computer, en is geschreven in de taal van jullie cliënten — niet in juridisch jargon.
 
 **Wat de nieuwe site heeft:**
 
-- **Eén duidelijk domein:** baarsjesadvocaten.nl — korter, makkelijker te onthouden, geen streepjes
-- **Aparte pagina's** voor elke specialisatie, werkwijze, kosten, en contact — goed voor Google
-- **Het telefoonnummer overal zichtbaar** — op telefoon als vaste bel-balk onderaan het scherm
-- **Gratis eerste gesprek prominent** — het sterkste verkoopargument dat jullie hebben
-- **Een contactformulier** dat berichten direct naar info@baarsjes-advocaten.nl stuurt
-- **Bezoekersstatistieken** — zodat jullie zien hoeveel mensen de site bezoeken en waar ze vandaan komen
+- Aparte pagina's voor elke specialisatie, werkwijze, kosten, en contact — goed voor Google
+- Het telefoonnummer overal zichtbaar — op telefoon als vaste bel-balk onderaan het scherm
+- Het gratis eerste gesprek prominent op elke pagina — het sterkste argument dat jullie hebben
+- Een contactformulier dat berichten direct naar info@baarsjes-advocaten.nl stuurt
+- Bezoekersstatistieken — zodat jullie zien hoeveel mensen de site bezoeken en waar ze vandaan komen
+- Professionele, consistente typografie die past bij een advocatenkantoor: strak, helder, vertrouwenwekkend
 
 ---
 
@@ -59,31 +94,39 @@ Wij willen jullie structureel helpen om meer cliënten te bereiken. Geen eenmali
 
 ### Het pakket
 
-| Onderdeel | Wat het doet |
-|-----------|-------------|
-| **Nieuwe website** | Professioneel, snel, mobiel, vindbaar op Google. Al gebouwd. |
-| **Domein baarsjesadvocaten.nl** | Geregistreerd en gekoppeld. Korter, geen streepjes. |
-| **Bezoekersstatistieken** | Hoeveel bezoekers, welke pagina's, waar komen ze vandaan. Geen cookies, privacyvriendelijk. |
-| **Contactformulier** | Berichten gaan direct naar jullie inbox. Geen submissions die verloren gaan. |
-| **Doorlopend beheer** | Wij houden de site actueel, veilig, en online. |
+**Nieuwe website** — Professioneel, snel, mobiel, vindbaar op Google. Al gebouwd en te bekijken.
 
-### Wat erbij kan komen (optioneel)
+**Bezoekersstatistieken** — Hoeveel bezoekers, welke pagina's, waar komen ze vandaan. Geen cookies, privacyvriendelijk. Al geïnstalleerd.
 
-| Onderdeel | Wat het doet |
-|-----------|-------------|
-| **Meertalige pagina's** | Turks, Arabisch, Engels — bereik een doelgroep die nu onzichtbaar is |
-| **Chatbot** | Beantwoordt de drie meest gestelde vragen, ook buiten kantooruren |
-| **Afsprakenplanner** | Cliënten plannen zelf een kennismakingsgesprek, met automatische herinnering |
-| **Google Business optimalisatie** | Foto's, reviews, openingstijden — zodat jullie bovenaan lokale zoekresultaten staan |
-| **Reviewsysteem** | Geautomatiseerd na elke afgeronde zaak een vriendelijk verzoek om een Google Review |
+**Contactformulier** — Berichten gaan direct naar jullie inbox. Geen submissions die verloren gaan. Al werkend.
+
+**Doorlopend beheer** — Wij houden de site actueel, veilig, en online.
+
+### Wat erbij kan komen
+
+**Meertalige pagina's** — Turks, Arabisch, Engels. Bereik een doelgroep die nu onzichtbaar is.
+
+**Chatbot** — Beantwoordt de drie meest gestelde vragen, ook buiten kantooruren. "Wat kost een advocaat?" "Heb ik recht op pro deo?" "Hoe maak ik een afspraak?"
+
+**Afsprakenplanner** — Cliënten plannen zelf een kennismakingsgesprek, met automatische herinnering. Geen phone tag meer.
+
+**Google Business optimalisatie** — Foto's, reviews, openingstijden. Zodat jullie bovenaan de lokale zoekresultaten staan.
+
+**Reviewsysteem** — Na elke afgeronde zaak een vriendelijk, automatisch verzoek om een Google Review. Meer reviews betekent hogere Google-positie.
 
 ### Wat het kost
 
 Wij werken met een maandelijks bedrag. Dat dekt de website, hosting, statistieken, het contactformulier, en doorlopend beheer.
 
-Concrete prijsafspraak maken we graag in een gesprek — die hangt af van welke onderdelen jullie willen. Maar om een indicatie te geven: vergelijkbare pakketten bij onze andere cliënten zitten tussen de €75 en €150 per maand, afhankelijk van de omvang.
+Concrete prijsafspraak maken we graag in een gesprek — die hangt af van welke onderdelen jullie willen. Maar om een indicatie te geven: vergelijkbare pakketten bij onze andere cliënten zitten tussen de 75 en 150 euro per maand, afhankelijk van de omvang.
 
 Geen langlopend contract. Maandelijks opzegbaar. Als het niet werkt, stoppen we.
+
+---
+
+## Eerste stap: de .amsterdam-site
+
+Los van dit voorstel raden wij aan om de site op advocatenkantoordebaarsjes.amsterdam zo snel mogelijk offline te halen of te redirecten. Die site schaadt jullie reputatie actief. Het domein is geregistreerd bij Mijndomein — als jullie de inloggegevens nog hebben, is het een kwestie van vijf minuten.
 
 ---
 
@@ -97,11 +140,11 @@ Wij werken al voor dertien cliënten in de regio. Wat wij voor jullie doen, doen
 
 ## Volgende stap
 
-De site staat klaar. Het domein is geregistreerd. Het contactformulier werkt.
+De site staat klaar. Het contactformulier werkt.
 
 Ik stel voor dat we een half uur bellen of langskomen, zodat ik kan laten zien wat er al staat en jullie wensen kunnen bespreken. Geen verplichting — net als jullie eerste gesprek.
 
-Bel me op [telefoonnummer] of mail naar wijnand@perceptum.nl.
+Bel me op +31 6 24 24 36 20 of mail naar wijnand@perceptum.nl.
 
 ---
 
